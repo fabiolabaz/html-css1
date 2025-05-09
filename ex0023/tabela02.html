@@ -9,9 +9,14 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 }
 
+tbody tr:nth-child(2n) {  /*efeito zebrado */
+background-color: lightgrey;
+}
+
 table {
 width: 400px;
 border-collapse: collapse;
+position: relative;
 
 }
 
@@ -21,8 +26,15 @@ padding: 10px;
 }
 
 thead {
-background-color: gray;
+background-color: #383838;
 color: white;
+
+}
+
+thead > tr > th {
+position: sticky;
+top: -1px;
+background-color: #383838;
 
 }
 
@@ -110,13 +122,41 @@ text-align: right;
         <td class="num">8 664 306</td>
 
         <tr>
-            <td>Santa Catarina</td>
-            <td class="num">8 058 441</td>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">8 058 441</td>
+        
+                <tr>
+            <td>Goiás</td>
+            <td class="num">7 350 483</td>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 010 960</td>
+                <tr>
+                    <td>Amazonas</td>
+                    <td class="num">4 281 209</td>
+                    <tr>
+                        <td>Paraíba</td>
+                        <td class="num">4 145 040</td>
+                        <tr>
+                            <td>Espírito Santo</td>
+                            <td class="num">4 102 129</td>
+                            <tr>
+                                <td>Mato Grosso</td>
+                                <td class="num">3 836 399</td>
+                                <tr>
+                                    <td>Rio Grande do Norte</td>
+                                    <td class="num">3 446 071</td>
+                                    <tr>
+                                        <td>Piauí</td>
+                                        <td class="num">3 375 646</td>
+                                        <tr>
+                                            <td>Alagoas</td>
+                                            <td class="num">3 220 104</td>
 
 
 </tr>
-
-
 
 
     </tbody>
