@@ -67,8 +67,6 @@ flex: 1 1 500px;
 
 article > div.media {
 flex: 1 0 500px;
-
-
 }
 
 div.media >img {
@@ -82,8 +80,6 @@ div.media > iframe {
 display: block;
 margin: auto;
 width: 90%;
-
-
 }
 
 
