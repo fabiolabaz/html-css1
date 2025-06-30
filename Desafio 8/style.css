@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+* {
+margin: 0px;
+padding: 0px;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+display: grid;
+grid-template-rows: 80px 40px 1fr 40px;
+grid-template-columns: 1fr 150px;
+gap: 5px;
+}
+.caixa {
+background-color: lightgray;
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+
+}
+
+#topo {
+
+grid-row-start: 1; 
+grid-row-end: 2;
+grid-column-start: 1;
+grid-column-end: -1;
+
+
+}
+
+#menu {
+    
+    grid-row-start: 2; 
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+}
+
+#principal {
+    grid-row-start: 3; 
+    grid-row-end: -2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+#secundario {
+    grid-row-start: 3; 
+    grid-row-end: -2;
+    grid-column-start: -2;
+    grid-column-end: -1;
+
+}
+
+ #rodape {
+
+   grid-area: -2 / 1 / -1 / -1;
+
+}
+
+
